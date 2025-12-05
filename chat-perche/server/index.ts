@@ -1,8 +1,8 @@
 // CommonJS-compatible imports (works with ts-node/tsx and Node without ESM config)
-const express = require('express');
-const cors = require('cors');
-require('dotenv/config');
-const OpenAI = require('openai');
+import express from 'express';
+import cors from 'cors';
+import 'dotenv/config';
+import OpenAI from 'openai';
 
 const app = express();
 app.use(
